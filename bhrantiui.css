@@ -1,0 +1,48 @@
+.bh-card {
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #fff;
+    color: #000;
+    padding: 1.5rem;
+    border: 2px solid #000;
+    border-radius: 12px;
+    box-shadow: 5px 5px 0px 0px #000;
+}
+
+.bh-btn {
+    background: #000;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+.bh-btn:hover {
+    background: #b3b3b3;
+    color: #000;
+    padding: 3px 8px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.bh-btn-secondary {
+    background: #fff;
+    color: #000;
+    padding: 3px 8px;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+.bh-btn-secondary:hover {
+    background: #b3b3b3;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
